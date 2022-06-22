@@ -9,8 +9,9 @@
         "frontend:deploy": "cd udagram/udagram-frontend && npm run deploy",
         "api:install": "cd udagram/udagram-api && npm install .",
         "api:build": "cd udagram/udagram-api && npm run build",
-        "api:start": "cd udagram/udagram-api && npm run dev",
+        "api:start": "cd udagram/udagram-api && npm run start",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
+        "set:env": "chmod +x set_env.sh && set_env.sh",
         "deploy": "npm run api:deploy && npm run frontend:deploy"
     }
 }
