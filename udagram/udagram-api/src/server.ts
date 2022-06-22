@@ -48,7 +48,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   // Start the Server
   app.listen(port, () => {
     console.log(`Backend server is listening on port ${port}....`);
-    console.log(`Frontent server running ${process.env.URL}`);
-    console.log(`press CTRL+C to stop server`);
+    console.log(`Frontent server running ${process.env.URL || "http://udagram-api-env-dev.eba-yv9vj2dm.us-east-1.elasticbeanstalk.com"}`);
+    console.log(`press CTRL + C to stop server`);
   });
 })();

@@ -16,7 +16,7 @@ export const config = {
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
   aws_media_bucket: process.env.AWS_BUCKET,
-  url: process.env.URL,
+  url: process.env.URL || "http://udagram-api-env-dev.eba-yv9vj2dm.us-east-1.elasticbeanstalk.com",
   jwt: {
     secret: process.env.JWT_SECRET,
   },
