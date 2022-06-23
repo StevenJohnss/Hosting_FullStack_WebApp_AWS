@@ -1,5 +1,7 @@
 
 
+<img src="https://github.com/StevenJohnss/Hosting_FullStack_WebApp_AWS/blob/master/documentation/pipline-process.png"> </img>
+
 
 * Orbs: 
 ```
