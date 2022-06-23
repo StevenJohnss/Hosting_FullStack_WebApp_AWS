@@ -1,6 +1,6 @@
 
 
-
+<img src="https://github.com/StevenJohnss/Hosting_FullStack_WebApp_AWS/blob/master/documentation/infrastructure.png"></img>
 
 
 Project Infrastructure consists of three main components as shown in above figure:
