@@ -5,7 +5,6 @@
 The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application. With Node Js for th backend and Angular for the frontend
 
 
-
 ### Dependencies
 
 ```
