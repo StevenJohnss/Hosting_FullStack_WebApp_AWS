@@ -70,7 +70,7 @@ const model_index_1 = require("./controllers/v0/model.index");
     // Start the Server
     app.listen(port, () => {
         console.log(`Backend server is listening on port ${port}....`);
-        console.log(`Frontent server running ${process.env.URL || "http://udagram-api-env-dev.eba-yv9vj2dm.us-east-1.elasticbeanstalk.com/"}`);
+        console.log(`Frontent server running ${process.env.URL || "http://udagram-api-env-dev.eba-yv9vj2dm.us-east-1.elasticbeanstalk.com"}`);
         console.log(`press CTRL + C to stop server`);
     });
 }))();
